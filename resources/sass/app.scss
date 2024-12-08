@@ -1,0 +1,781 @@
+/* ALL */
+* {
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    margin: 0 3%;
+    height: auto;
+}
+
+.rounded-one {
+    border-radius: 25px;
+}
+
+.rounded-two {
+    border-radius: 10px;
+}
+
+/* Color */
+.fw-reg {
+    font-weight: normal;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.text-prim {
+    color: #2277AB;
+}
+
+.bg-prim {
+    background-color: #2277AB;
+}
+
+.text-sec {
+    color: #FFCC18;
+}
+
+.bg-sec {
+    background-color: #FFCC18;
+}
+
+.text-ter {
+    color: #00385A;
+}
+
+.bg-ter {
+    background-color: #00385A;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.text-black {
+    color: #0E0E0E;
+}
+
+.bg-black {
+    background-color: #0E0E0E;
+}
+
+.text-gray {
+    color: #E5E5E5;
+}
+
+.bg-gray {
+    background-color: #E5E5E5;
+}
+
+.text-green {
+    color: #36AE7C;
+}
+
+.bg-green {
+    background-color: #36AE7C;
+}
+
+.text-red {
+    color: #EB5353;
+}
+
+.bg-red {
+    background-color: #EB5353;
+}
+
+
+/* Buttons */
+.btn-one {
+    padding: 4px 20px;
+    font-weight: 500;
+}
+
+/* Header */
+header {
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .2);
+    z-index: 1;
+    padding: 18px 0;
+
+    .smtn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h4 {
+        font-size: 16pt;
+        cursor: default;
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        margin-top: 5px;
+
+        li {
+            margin-left: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #FFCC18;
+        }
+    }
+
+    .nav-btn {
+        margin: auto 0;
+
+        a {
+            text-decoration: none;
+            margin-left: 20px;
+        }
+    }
+}
+
+/* Footer */
+footer {
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 -6px 6px 0 rgba(0, 0, 0, .2);
+
+    .smtn {
+        justify-content: space-between;
+    }
+
+    h3 {
+        font-size: 16pt;
+    }
+
+    .copy {
+        font-size: 10pt;
+    }
+
+    .fs {
+        font-size: 20pt;
+    }
+
+    a {
+        margin: auto 0;
+        padding-left: 30px;
+    }
+}
+
+/* pages.index */
+.index-main {
+    margin-top: 10%;
+
+    .sec-1 {
+        justify-content: space-between;
+        margin-bottom: 90px;
+    }
+
+    .col-1 {
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 40pt;
+    }
+
+    .almn {
+        position: relative;
+        top: -40px;
+    }
+
+    .prf-1 {
+        font-size: 14pt;
+        position: relative;
+        top: -50px;
+    }
+
+    .btn-1 {
+        font-weight: 500;
+        float: left;
+        margin-top: -20px;
+        padding: 8px 20px;
+        border-radius: 10px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .home-1 {
+        width: 50%;
+        position: relative;
+        left: 35px;
+    }
+
+    .sec-2 {
+        padding: 90px 0;
+        justify-content: space-between;
+    }
+
+    .home-2 {
+        width: 35%;
+        position: relative;
+    }
+
+    .col-2 {
+        margin-top: 150px;
+        margin-right: 150px;
+    }
+
+    .prf-2 {
+        font-size: 18pt;
+    }
+
+    .btn-2 {
+        float: left;
+        margin-top: 20px;
+        font-weight: 500;
+        color: dodgerblue;
+        padding: 8px 20px;
+        border-radius: 10px;
+        border: 2px solid dodgerblue;
+    }
+}
+
+/* pages.job */
+.job-main {
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+    .find {
+        justify-content: space-between;
+
+        .search-bar {
+            width: 38%;
+            justify-content: start;
+
+            .search-text {
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border: 0;
+                outline: none;
+                width: 100%;
+                border-radius: 15px;
+            }
+
+            .search-btn {
+                padding-top: 4px;
+                padding-bottom: 3px;
+                padding-left: 12px;
+                padding-right: 12px;
+                position: absolute;
+                left: 35%;
+                border: 0;
+                width: 5%;
+                border-radius: 0 15px 15px 0;
+
+                font-size: 12pt;
+            }
+        }
+
+        .category {
+            width: 38%;
+            margin: auto 0;
+            justify-content: right;
+
+            select {
+                width: 100%;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border: 0;
+                border-radius: 15px;
+            }
+        }
+    }
+
+    .job-list {
+        width: 100%;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 20px;
+
+        a {
+            text-decoration: none;
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            border: 2px solid #0E0E0E;
+            border-radius: 15px;
+
+            hr {
+                border-top: 1.5px solid #0E0E0E;
+            }
+
+            .card-header {
+                width: 100%;
+                padding-bottom: 10px;
+
+                img {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    margin: auto 0;
+                }
+
+                .card-title {
+                    padding-left: 15px;
+                    margin: auto 0;
+
+                    h4 {
+                        margin: 0;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .card-body {
+                width: 100%;
+
+                .card-detail {
+                    i {
+                        margin: auto 0;
+                    }
+
+                    p {
+                        margin: auto 0;
+                        padding: 10px;
+                    }
+                }
+            }
+
+            .card-footer {
+                width: 100%;
+                justify-content: center;
+                position: relative;
+                top: 10px;
+
+                i {
+                    margin: auto 0;
+                    color: green;
+                    font-size: 10pt;
+                }
+
+                p {
+                    margin: auto 0;
+                    padding: 10px;
+                    color: green;
+                    font-size: 10pt;
+                }
+            }
+        }
+    }
+}
+
+/* pages.jobdetail */
+.jobdetail-main {
+    margin-top: 120px;
+}
+
+/* pages.about */
+.about-main {
+    margin-top: 10%;
+    margin-bottom: 4%;
+
+    h1 {
+        font-weight: 400;
+        font-size: 30pt;
+    }
+
+    .about {
+        margin-right: 200px;
+    }
+
+    .smtn {
+        justify-content: space-between;
+    }
+
+    .faq {
+        margin-top: 80px;
+
+        .faq-card {
+            padding: 0 25px;
+            width: 48%;
+
+            .fa-chevron-down {
+                margin-left: 20px;
+                margin: auto 0;
+                font-size: 20pt;
+            }
+        }
+    }
+
+    .qstn {
+        margin-right: 30px;
+    }
+
+    .mt {
+        margin-top: 20px;
+    }
+
+    .contact {
+        margin-top: 80px;
+
+        .spacing {
+            margin-top: 20px;
+        }
+
+        .item {
+
+            .icon {
+                font-size: 20pt;
+            }
+
+            p {
+                margin: auto 0;
+                padding-left: 20px;
+                font-size: 14pt;
+            }
+        }
+    }
+}
+
+/* employer.index */
+.index-main-emp {
+    margin-top: 10%;
+    margin-bottom: 4%;
+
+    .section {
+        width: 100%;
+
+        .emp-card {
+            padding: 30px;
+            width: 40%;
+            height: 50%;
+            border-radius: 10px;
+
+            hr {
+                width: 100%;
+                border-top: 2px solid;
+            }
+
+            .emp-card-header {
+                margin-bottom: 10px;
+
+                img {
+                    height: 60px;
+                    width: 60px;
+                    margin-right: 20px;
+                }
+            }
+
+            .emp-card-body {
+                margin-top: 20px;
+
+                .stats {
+                    margin-bottom: 30px;
+
+                    .stats-icon {
+                        margin: auto 0;
+                        margin-right: 20px;
+                    }
+
+                    p {
+                        margin: auto 0;
+                    }
+                }
+
+                .stats2 {
+
+                    .stats-icon {
+                        margin: auto 0;
+                        margin-right: 20px;
+                    }
+
+                    p {
+                        margin: auto 0;
+                    }
+                }
+            }
+        }
+
+        .joblist-container {
+            margin-left: 30px;
+            width: 60%;
+
+            .joblist-header {
+                justify-content: space-between;
+
+                .add-loker {
+                    float: right;
+                    text-align: center;
+                    border: none;
+                    border-radius: 15px;
+                    padding: 10px;
+                    margin-bottom: 20px;
+                    text-decoration: none;
+                    width: 40%;
+
+                    font-size: 12pt;
+                    font-weight: 400;
+                }
+            }
+
+            .joblist {
+                width: 100%;
+
+                .job {
+                    width: 100%;
+                    padding: 20px;
+                    border-radius: 15px;
+                    margin: 10px 0;
+                    justify-content: space-between;
+
+                    .divider {
+                        height: 100%;
+                        border-left: 2px solid #0E0E0E;
+                    }
+
+                    img {
+                        height: 70px;
+                        width: 70px;
+                        margin: auto 0;
+                    }
+
+                    .job-title {
+                        margin: auto 0;
+
+                        h4 {
+                            margin: 0;
+                            font-size: 12pt;
+                        }
+
+                        p {
+                            margin: 0;
+                            font-size: 11pt;
+                        }
+                    }
+
+                    .count-kndt {
+                        margin: auto 0;
+
+                        i {
+                            margin: 0;
+                            margin: auto 0;
+                            margin-right: 10px;
+                            font-size: 20pt;
+                        }
+
+                        p {
+                            margin: 0;
+                            margin: auto 0;
+                            font-size: 20pt;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .action {
+                        height: 100%;
+
+                        .btn {
+                            font-size: 10pt;
+                            text-align: center;
+                            font-weight: 500;
+                            padding: 2px 10px;
+                            border-radius: 5px;
+                            text-decoration: none;
+                            border: 0;
+                            cursor: pointer;
+                        }
+
+                        .btn-mid {
+                            margin: 5px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* employer.candidatelist */
+.candidatelist-main {
+    margin-top: 10%;
+    margin-bottom: 4%;
+
+    .list-header {
+        padding: 20px;
+        justify-content: space-between;
+        border-radius: 10px;
+
+        .head-1 {
+            width: 42%;
+
+            img {
+                width: 60px;
+                height: 60px;
+                margin-right: 20px;
+            }
+
+            .list-title {
+                h3 {
+                    margin: 0;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+
+        .head-2 {
+            width: 42%;
+            justify-content: space-between;
+
+            .divider {
+                height: 100%;
+                border-left: 2px solid #0E0E0E;
+            }
+
+            a {
+                text-decoration: none;
+                margin: auto 0;
+                font-size: 12pt;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .candidatelist {
+        margin-top: 30px;
+
+        .candidate {
+            padding: 20px;
+
+            .sec-1 {
+                img {
+                    width: 60px;
+                    height: 60px;
+                    margin: auto 0;
+                    margin-right: 20px;
+                }
+
+                .cndt-name {
+                    margin: auto 0;
+
+                    h3 {
+                        margin: 0;
+                        font-size: 12pt;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 10pt;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* employer.about */
+.about-main-emp {
+    margin-top: 10%;
+    margin-bottom: 4%;
+
+    h1 {
+        font-weight: 400;
+        font-size: 30pt;
+    }
+
+    .about {
+        margin-right: 200px;
+    }
+
+    .smtn {
+        justify-content: space-between;
+    }
+
+    .faq {
+        margin-top: 80px;
+
+        .faq-card {
+            padding: 0 25px;
+            width: 48%;
+
+            .fa-chevron-down {
+                margin-left: 20px;
+                margin: auto 0;
+                font-size: 20pt;
+            }
+        }
+    }
+
+    .qstn {
+        margin-right: 30px;
+    }
+
+    .mt {
+        margin-top: 20px;
+    }
+
+    .contact {
+        margin-top: 80px;
+
+        .spacing {
+            margin-top: 20px;
+        }
+
+        .item {
+
+            .icon {
+                font-size: 20pt;
+            }
+
+            p {
+                margin: auto 0;
+                padding-left: 20px;
+                font-size: 14pt;
+            }
+        }
+    }
+}

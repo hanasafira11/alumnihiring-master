@@ -1,0 +1,176 @@
+/* job.create */
+.create-job-main {
+    margin-top: 120px;
+
+    .head-detail {
+        margin-bottom: 50px;
+    }
+
+    .form-img {
+        margin-top: 90px;
+        height: 110px;
+        width: 110px;
+        position: relative;
+        border-radius: 50%;
+        background-color: #E5E5E5;
+        overflow: hidden;
+    }
+
+    .file-img {
+        position: relative;
+        outline: none;
+        color: transparent;
+        width: 100%;
+        box-sizing: border-box;
+        cursor: pointer;
+        top: 40px;
+        left: 13px;
+    }
+
+    .form-head {
+        position: absolute;
+        left: 200px;
+        top: 120px;
+    }
+
+    .form-head input {
+        background-color: #eee;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 13px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    input:focus,
+    textarea:focus,
+    .btn-add-input:focus {
+        outline: 2px solid #2277AB;
+    }
+
+    .col-btn-blue {
+        button {
+            text-decoration: none;
+            position: absolute;
+            right: 40px;
+            top: 120px;
+            font-size: 15px;
+            color: white;
+        }
+
+        .btn-rounded-full {
+            padding: 8px 20px;
+            border-radius: 25px;
+            border: 0;
+        }
+
+        .bg-blue {
+            background-color: #2277AB;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .bg-blue:hover {
+            background-color: #184f72;
+        }
+    }
+
+    textarea {
+        background-color: #eee;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 13px;
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    fieldset {
+        padding: 0;
+        margin: 5px 0;
+        border: none;
+
+        .input-field {
+            position: relative;
+            margin: 5px 0;
+            width: 800px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            background-color: #eee;
+            padding: 15px;
+        }
+    }
+
+    .btn-add-input {
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+
+    .col-code {
+        input {
+            background-color: #eee;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 13px;
+            width: 100%;
+            margin: 0;
+            font-size: 14px;
+        }
+    }
+
+    .col-slug {
+        input {
+            background-color: #eee;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 13px;
+            width: 100%;
+            margin: 0;
+            font-size: 14px;
+        }
+    }
+
+    .col-address {
+        input {
+            background-color: #eee;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 13px;
+            width: 100%;
+            margin: 0;
+            font-size: 14px;
+        }
+    }
+
+    .col-salary {
+        input {
+            background-color: #eee;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 13px;
+            width: 100%;
+            margin: 0;
+            font-size: 14px;
+        }
+    }
+
+    .col-major {
+        input {
+            background-color: #eee;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 13px;
+            width: 100%;
+            margin: 0;
+            font-size: 14px;
+        }
+    }
+}
+
+/* employer.profile */
+.employer-profile-main {
+    margin-top: 120px;
+}
